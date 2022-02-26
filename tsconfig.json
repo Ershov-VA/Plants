@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES5",
+        "esModuleInterop": true,
+        "lib": [
+            "esnext",
+            "dom"
+        ]
+    },
+    "declaration": true,
+    "outDir": "./dist",
+    "typeRoots": [
+        "node_modules/@types",
+        "src/typing.d.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
